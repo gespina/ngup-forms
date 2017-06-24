@@ -1,14 +1,12 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'up-root',
   template: `
-    <h1>
-      Welcome to {{title}}!!
-    </h1>
+    <div class="container">
+      <h1>Reactive Forms</h1>
+    </div>
   `,
-  styles: []
 })
 export class AppComponent {
-  title = 'up';
 }
