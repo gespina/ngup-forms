@@ -53,10 +53,8 @@
   "defaults": {
     "styleExt": "css",
     "component": {
-      "inlineTemplate": true,
       "inlineStyle": true,
-      "spec": false,
-      "flat": true
+      "spec": false
     }
   }
 }
