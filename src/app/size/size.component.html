@@ -1,0 +1,23 @@
+<div class="form-group">
+  <div class="btn-group">
+
+    <button type="button"
+            (click)="size = 'small'"
+            [class.active] = "size === 'small'"
+            class="btn btn-secondary">small
+    </button>
+
+    <button type="button"
+            (click)="size = 'medium'"
+            [class.active] = "size === 'medium'"
+            class="btn btn-secondary">medium
+    </button>
+
+    <button type="button"
+            (click)="size = 'large'"
+            [class.active] = "size === 'large'"
+            class="btn btn-secondary">large
+    </button>
+
+  </div>
+</div>
