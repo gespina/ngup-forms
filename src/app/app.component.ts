@@ -5,6 +5,7 @@ import {Component} from '@angular/core';
   template: `
     <div class="container">
       <h1>Reactive Forms</h1>
+      <up-user-form></up-user-form>
     </div>
   `,
 })
